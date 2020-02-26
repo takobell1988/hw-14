@@ -1,0 +1,6 @@
+    - name: "Ansible create file with content hello world"
+      copy:
+        dest: "/tmp/test1/hello_world.txt"
+        content: |
+          Hello World!
+
